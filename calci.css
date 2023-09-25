@@ -8,7 +8,7 @@ body{
 .Conatiner{
     background-color:whitesmoke;
     width: 200px;
-    height:300px;
+    height:350px;
     padding: 20px;
     text-align: center;
 }
@@ -30,5 +30,10 @@ button{
     padding: 10px;
     font-size: larger;
     cursor: pointer;
+}
+.CE{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
 }
 

@@ -9,6 +9,8 @@
 <body>
     <div class="Conatiner">
             <input type="text" id="data" />
+            <div class="CE">
+                <button onclick="Clear()" style="background-color: red;">CE</button></div>
             <div class="btns">
                 <button onclick="Display('7')">7</button>
                 <button onclick="Display('8')">8</button>
@@ -21,8 +23,8 @@
                 <button onclick="Display('1')">1</button>
                 <button onclick="Display('2')">2</button>
                 <button onclick="Display('3')">3</button>
-                <button onclick="Display('x')" style="background-color: black; color:white">x</button>
-                <button onClick="data.value=''" style="background-color: red;">C</button>
+                <button onclick="Display('*')" style="background-color: black; color:white">x</button>
+                <button onClick="Clear()" style="background-color: red;">C</button>
                 <button onclick="Display('0')">0</button>
                 <button onclick="Result()" style="background-color: black; color:white">=</button>
                 <button onclick="Display('/')" style="background-color: black; color:white">/</button>
